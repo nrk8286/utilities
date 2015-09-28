@@ -1,0 +1,2 @@
+set JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8080
+%JAVA_HOME%\bin\java %JAVA_OPTS% -cp C:\Users\Inferno\Documents\NetBeansProjects\SmartLauncher\dist\SmartLauncher.jar SmartLauncherMain
